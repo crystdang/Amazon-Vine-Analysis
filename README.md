@@ -44,4 +44,6 @@ The purpose of this analysis is to summarize the findings from Amazon_Vine_Analy
 
 ### Summary: 
 
-In summary, the difference in the percentage (0.20%) of 5-star versus lower reviews are not substantial enough to be providing a positivity bias due to the Vine program. An additional assessment would be to further clean the dataset and ensure Natural Language is considered and cleaned in the reviews.
+In summary, the difference in percentage of 5-star versus lower reviews (0.20%) are not substantial enough to be providing a positivity bias due to the Vine program, which proves its validity. 
+
+An additional assessment that could be done with this dataset would be to further clean the dataset and ensure Natural Language is considered when reviews are considered helpful. Due to language barriers or quick keys, the helpful votes could be considered just positive reinforcement to negative reviews.
