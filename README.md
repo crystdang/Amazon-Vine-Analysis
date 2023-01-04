@@ -3,19 +3,21 @@
 
 
 ### Overview of the analysis:
+
 The purpose of this analysis is to summarize the findings from Amazon_Vine_Analysis.ipynb
 
 
-### Results: 
-Using bulleted lists and images of DataFrames as support, address the following questions:
 
-How many Vine reviews and non-Vine reviews were there?
-How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+### Results:
 
+- Total reviews: 31,830
+- Total Vine (paid) reviews: 285 (0.90%)
+- Total non-Vine (unpaid) reviews: 31,545 (99.10%)
 
-### Summary: 
-In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+- Total 5-star reviews: 14,777
+- Total Vine (paid) 5-star reviews: 163 (1.10%)
+- Total non-Vine (unpaid) 5-star reviews: 14,614 (98.90%)
+
 
 *Below is an image of the DataFrame created where there are 20 or more total votes:*
 ![This is an image](https://github.com/crystdang/Amazon-Vine-Analysis/blob/main/Images/votes.png)
@@ -35,4 +37,11 @@ In your summary, state if there is any positivity bias for reviews in the Vine p
 *Below is an image of the DataFrame created of 5-star reviews without a Vine reviews and to the total count:*
 ![This is an image](https://github.com/crystdang/Amazon-Vine-Analysis/blob/main/Images/top_unpaid.png)
 
-MISSING: The total number of reviews, the number of 5-star reviews, and the percentage 5-star reviews
+*Below is an image of the DataFrame created of the total 5-star reviews paid and unpaid and the percentage of the two types (paid vs unpaid):*
+![This is an image](https://github.com/crystdang/Amazon-Vine-Analysis/blob/main/Images/summary.png)
+
+
+
+### Summary: 
+
+In summary, the difference in the percentage (0.20%) of 5-star versus lower reviews are not substantial enough to be providing a positivity bias due to the Vine program. An additional assessment would be to further clean the dataset and ensure Natural Language is considered and cleaned in the reviews.
